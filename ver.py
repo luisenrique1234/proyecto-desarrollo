@@ -8,7 +8,7 @@ try:
         rec = listener.recognize_google(voice, language='es-ES')
         print(rec)
         #comprobando las situacion del repocitorio
-        
+        #nuevo cambiao
 
 except:
     pass
