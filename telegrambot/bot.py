@@ -8,7 +8,7 @@ def start(update,context):
 
 if __name__ == '__main__':
 
-    updater = Updater(token='1701235964:AAEXvfD57oiuBY85dWb7bAIWF-c2bgn9VIY', use_context=True)
+    updater = Updater(token='you taken', use_context=True)
 
     dp = updater.dispatcher
     dp.add_handler(CommandHandler('start',start))
